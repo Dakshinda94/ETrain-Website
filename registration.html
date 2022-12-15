@@ -1,0 +1,157 @@
+<html>
+   <head>
+      <title>Ceylon e train.COM</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="css/p1.css">
+	    <link rel="stylesheet"  type="text/css" href="css/register.css">
+	  <script src="js/train.js"></script>
+   </head>
+   
+ <body>
+
+    <div>
+         <img src="images/FRA_locomotive.png" alt="Snow" style="width:100%;">
+         <div class="centered">
+          <img src="images/logo - Copy.png" alt="profile Icon" height="150" width="150" align="left">
+
+            <img src="images/e2.jpg" alt="logo" height="80" width="80" align="right">
+            <h1 align="center">Ceylon e train.com</h1>
+             <!-- add background-->
+             <!-- add background-->
+             <div align="right">
+            <div class="dropdown" align="left">
+                <button class="dropbtn">Language</button>
+                <br />
+
+                <div class="dropdown-content">
+                    <a href="#">Sinhala</a>
+                    <a href="#">English</a>
+                    <a href="#">Tamil</a>
+                </div>
+            </div>
+            <br/>
+            <br/>
+            <input type="submit" value="Log in">
+
+            <input type="submit" value="Sing up">
+            <br>
+        </div>
+    </div>
+</div>
+
+    <ul class="menu">
+        <li class="menu"><a href="home.html">Home</a></li>
+        <li class="menu"><a href="profile.html">Profile</a></li>
+        <li class="menu"><a href="services.html">Service</a></li>
+        <li class="menu"><a href="#">registration</a></li>
+        <li class="menu"><a href="TicketBooking.html">e-Ticket</a></li>
+        <li class="menu"><a href="department.html">Department</a></li>
+        <li class="menu"><a href="notice.html">Notices</a></li>
+		<li class="menu"><a href="login.html">Login</a></li>
+        <li class="menu"><a href="contact us.html">Contact Us</a></li>
+		
+        <input type="text" placeholder="Search.." name="search">
+    </ul><br><br>
+
+    <!-- image slader-->
+            <div class="rform" >
+                <form id="reg" onsubmit="return checkPassword()" >
+                      
+                        <h2 class="hd" align="center">...Registration...</h2>
+
+                            <ul class="list">
+								  
+                                <li>
+                                    <label> First Name :    </label><br>
+                                    <input  type="text "  name="firstname" placeholder="First Name" required><br><br>
+                                </li>
+								   
+                                <li> 
+                                    <label> Last  Name :    </label><br>
+                                    <input  type="text "  name="lastname" placeholder="Last Name" required><br><br>
+                                </li>
+								   
+	                            <li>
+                                    <label> NIC:    </label><br>
+                                    <input  type="number "  name="num" placeholder="Enter your NIC Number" required><br><br>
+                                </li>
+								   
+                                <li>
+                                     <label>Address :    </label> <br>
+                                     <textarea rows="6" cols="40" placeholder="Address" name="address" required></textarea><br><br> 
+                                </li>
+								   
+                                <li>
+                                    <label> Email :    </label><br>
+                                    <input  type="email "  name="email" placeholder="adh2s@gmail.com" required><br><br>
+                                </li>
+								   
+	                            <li>
+                                    <label> Mobile Number :    </label><br>
+                                    <input  type="text"  name="mobile" placeholder="Enter ur Mobile Number" required pattern ="[0-9]{10}"  title="Please enter 10 digits." required><br><br>
+                                </li>
+								   
+                                <li>
+                                    <label> Date of Birth :    </label><br>
+                                    <input  type="date"  name="date" placeholder="DD/MM/YY" min="1995-01-01" max="2005-12-31"><br><br>
+                                </li>
+								   
+                                <li>
+                                    <label> Male :   </label>
+                                    <input type="radio" name="gender" value="male" checked>
+                                    <label for="female"> Female :   </label>
+                                    <input type="radio" name="gender" value="female"><br><br>
+                                </li>
+								   
+                                <li>
+                                    <label> Password :    </label><br>
+                                    <input type="password" name="Pwd1" id ="pwd1" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{10,}" title="Must contatin at least one number,one upper case and lower case letter and lest 10 charatas"><br>
+                                </li>
+
+		                            <pattern>(Must create a pw at least one number,one upper case and lower case letter and lest 10 charatas)</pattern><br><br>
+								   
+                                <li>
+                                    <label> Confirm Password :    </label><br>
+                                    <input type="password" name="Pwd2" id ="pwd2"><br>
+
+                                    <input type="checkbox" name="chkterms" id="chkterms" onchange="acceptTems()"> accept privacy policy and terms<br>
+                                </li>
+                           </ul>
+                                    <center> <input type="submit" onclick="Password()" disabled id ="btnSub"></center>
+                                    
+                       </form>
+                   </div>
+
+
+   
+    <!-- Add Calendar-->
+	<hr>
+    <div align="center">
+        <table>
+            <tr>
+                <th>Contact</th>
+                <th align="center">More Info</th>
+            </tr>
+            <td>
+                <ul>
+                    <li><a href="About us.html">About us</a></li>
+                    <li><a href="contact us.html">Contact us</a></li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li><a href="terms of use.html">Term of use</a></li>
+                    <li><a href="privacy policy.html">Privacy policy</a></li>
+                    <li><a href="copyRight.html">CopyRight</a></li>
+                </ul>
+            </td>
+        </table>
+    </div>
+
+    <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+    <a href="https://twitter.com/login?lang=en" class="fa fa-twitter"></a>
+    <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+    </div>
+    <script src="js/js.js"></script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+body
+{
+      background-image:url("../images/p4.jpg");
+      background-color:#FFFFFF;
+      background-size:100% 2500px;
+      background-repeat:no-repeat;
+
+}
+
+
+
+body, html {
+    height: 80%;
+	font-family: 'Antic'; font-size: 25px; text-align:center;
+
+}
+.co {
+    border-style: solid;
+    width: 105%;
+    margin: auto;
+    color: #FFFFFF;
+    font-size: 34px;
+    text-align: center;
+}
+
+
+
+.tab {
+	text-align:left;
+	font-size: 20px;
+	color:#FFFFFF;
+}
+
+.mapouter
+	{
+	position:relative;
+	text-align:right;
+	height:400px;
+	width:500px;
+	float:right;
+	
+}
+
+
+.gmap_convas
+	{
+	overflow:hidden;
+	background:none!important;
+	height:400px;
+	width:500px;
+}
+.rform{
+	width:40%;
+	margin:auto;
+}
+#reg {
+    width: 169%;
+    paddin: 7%;
+    background-color: rgb(0,0,0,0.4);
+}
+.column{
+	float:left;
+	width:50%;
+	}
+
+.row:after{
+	content:"";
+	display:table;
+	clear:both;
+}
+		
+		

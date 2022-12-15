@@ -1,0 +1,27 @@
+body
+{
+      background-image:url("../images/p4.jpg");
+      background-color:#cccccc;
+      background-size:100% 2000px;
+      background-repeat:no-repeat;
+
+}
+}
+.list{
+color:white;
+}
+.rform{
+     width:40%;
+     margin:auto;
+}
+#reg{
+     width:100%;
+     padding:14px 20px;
+     background-color:rgb(0,0,0,0.4);
+	 
+}
+label{
+     color:white;
+     font-size:20px;
+      font-weight:bold;
+}
